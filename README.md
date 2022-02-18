@@ -2,7 +2,7 @@
 
 I avoided notification and alerting for a long time because I couldn't find a well thought out approach that was simple, robust, and repeatable.  There are a lot of good tools, but having a well thought out strategy for various situations is just as important as the tools.  
 
-<img src='images/garage_open.jpg' width=300>  <img src='images/device_down2.jpg' width=300>  <img src='images/kitchen_freezer.jpg' width=300>
+<img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/garage_open.jpg' width=300>  <img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/device_down2.jpg' width=300>  <img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/kitchen_freezer.jpg' width=300>
 
 ## Alert and Notification Concepts
 
@@ -59,7 +59,7 @@ notify:
   * RESOLVED notification once alert is no longer active
   * Automation at 10:30PM, if alert is active send notification at that time
 
-<img src='images/garage_door_notify.jpg' width=300> <img src='images/garage_open.jpg' width=300>  <img src='images/garage_open_acknowledged.jpg' width=300> <img src='images/garage_door_mobile.jpg' width=300>
+<img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/garage_door_notify.jpg' width=300> <img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/garage_open.jpg' width=300>  <img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/garage_open_acknowledged.jpg' width=300> <img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/garage_door_mobile.jpg' width=300>
 
 ```yaml
 group:
@@ -130,7 +130,7 @@ automation:
 * Notification
   * Only one notification
 
-<img src='images/device_restarted.jpg' width=300>
+<img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/device_restarted.jpg' width=300>
 
 ```yaml
 input_boolean:
@@ -209,7 +209,7 @@ automation:
 
 This doesn't require any backend configuration and doesn't do any notification, but it is really useful to quickly bring issues to the forefront.  It just displays the card by using the auto-entities card.  See the lovelace configuration at the bottom for details, but will require some minor tuning for exclusions in your system.
 
-<img src='images/possible_issues.jpg' width=300>
+<img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/possible_issues.jpg' width=300>
 
 ## Warnings
 
@@ -223,7 +223,7 @@ This doesn't require any backend configuration and doesn't do any notification, 
   * Acknowledging alert stops further notifications
   * RESOLVED notification once alert is no longer active
 
-<img src='images/notify_options.jpg' width=300> <img src='images/device_down2.jpg' width=300>  <img src='images/device_down_acknowledged.jpg' width=300> <img src='images/device_down_mobile.jpg' width=300>
+<img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/notify_options.jpg' width=300> <img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/device_down2.jpg' width=300>  <img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/device_down_acknowledged.jpg' width=300> <img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/device_down_mobile.jpg' width=300>
 
 
 ```yaml
@@ -339,7 +339,7 @@ alert:
   * Acknowledging alert stops further notifications
   * RESOLVED notification once alert is no longer active
 
-<img src='images/kitchen_freezer.jpg' width=300> <img src='images/kitchen_freezer_acknowledged.jpg' width=300> <img src='images/kitchen_notify.jpg' width=300>
+<img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/kitchen_freezer.jpg' width=300> <img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/kitchen_freezer_acknowledged.jpg' width=300> <img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/kitchen_notify.jpg' width=300>
 
 ```yaml
 input_boolean:
@@ -387,7 +387,7 @@ alert:
   * Acknowledging alert stops further notifications
   * RESOLVED notification once alert is no longer active
 
-<img src='images/techrack_ups.jpg' width=300> <img src='images/techrack_ups_mobile.jpg' width=300>
+<img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/techrack_ups.jpg' width=300> <img src='https://github.com/ccpk1/Home-Assistant-Alerting/raw/master/images/techrack_ups_mobile.jpg' width=300>
 
 ```yaml
 input_boolean:
