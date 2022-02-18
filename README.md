@@ -203,11 +203,11 @@ automation:
 
 ```
 
-### Possible issues like unknown devices (INFO)
+### Show entities with issues like unknown devices (INFO)
 * Display
   * Card is shown on dashboard when specified devices have "Unknown" state
 
-This doesn't require any backend configuration and doesn't do any notification, but it is really useful to quickly bring issues to the forefront.  It just displays the card by using the auto-entities card.  See the lovelace configuration at the bottom for details.
+This doesn't require any backend configuration and doesn't do any notification, but it is really useful to quickly bring issues to the forefront.  It just displays the card by using the auto-entities card.  See the lovelace configuration at the bottom for details, but will require some minor tuning for exclusions in your system.
 
 <img src='images/possible_issues.jpg' width=300>
 
