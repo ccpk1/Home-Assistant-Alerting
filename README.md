@@ -1,6 +1,6 @@
 # Simple and Effective Alerting
 
-I searched for a long time to find an approach for alerts and notifications that was simple, robust, and repeatable.  There are a lot of good tools, but having a well thought out strategy for various situations is just as important as the tools.  
+I avoided notification and alerting for a long time because I couldn't find a well thought out approach that was simple, robust, and repeatable.  There are a lot of good tools, but having a well thought out strategy for various situations is just as important as the tools.  
 
 <img src='images/garage_open.jpg' width=300>  <img src='images/device_down2.jpg' width=300>  <img src='images/kitchen_freezer.jpg' width=300>
 
@@ -48,16 +48,6 @@ notify:
 ```
 
 ## Informational
-
-### Possible issues like unknown devices (INFO)
-* Display
-  * Card is shown on dashboard when specified devices have "Unknown" state
-
-This doesn't require any backend configuration and doesn't do any notification.  It just displays the card by using the auto-entities card.  See the lovelace configuration for details
-
-<img src='images/possible_issues.jpg' width=300>
-
-
 
 ### Garage door(s) are open (INFO)
 * Input Boolean turns on/off the alerts
@@ -212,6 +202,14 @@ automation:
       - delay: 00:00:05
 
 ```
+
+### Possible issues like unknown devices (INFO)
+* Display
+  * Card is shown on dashboard when specified devices have "Unknown" state
+
+This doesn't require any backend configuration and doesn't do any notification, but it is really useful to quickly bring issues to the forefront.  It just displays the card by using the auto-entities card.  See the lovelace configuration at the bottom for details.
+
+<img src='images/possible_issues.jpg' width=300>
 
 ## Warnings
 
